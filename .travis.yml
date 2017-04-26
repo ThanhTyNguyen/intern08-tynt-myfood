@@ -26,6 +26,6 @@ script:
   # execute tests
   - ./scripts/tests/branch
   - ./scripts/tests/lint
-  - ./scripts/tests/app
+  # - ./scripts/tests/app
 notifications:
   email: false
