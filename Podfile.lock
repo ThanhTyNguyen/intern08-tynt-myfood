@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.3.0)
+  - AsyncSwift (2.0.1)
+  - SVProgressHUD (2.1.2)
+  - SwiftLint (0.16.1)
+  - SwiftUtils (2.1.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3.0)
+  - AsyncSwift
+  - SVProgressHUD (~> 2.1.2)
+  - SwiftLint (~> 0.16.1)
+  - SwiftUtils (~> 2.1.1)
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  AsyncSwift: 632138e42ead868b53c745fcde9bf733ce1527ad
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftLint: b8b683208cc09640898f16318a7a452274e91f61
+  SwiftUtils: 3f79be4fec34ac8b7c95d2ec15c9feebe81f1fc1
+
+PODFILE CHECKSUM: 1cdddef2e4582a458cf56ff4f6c77eee1636b373
+
+COCOAPODS: 1.2.1

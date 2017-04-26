@@ -1,0 +1,40 @@
+#!/bin/bash
+
+set -e
+
+APP='MyFood'
+CONFIG=$(echo "$1" | tr ':A-Z:' ':a-z:')
+
+if [[ "$CONFIG" != 'adhoc' && "$CONFIG" != 'release' ]]; then
+    echo 'Please input config `adhoc, release`.'
+    exit 1
+fi
+
+if [[ "$CONFIG" == 'release' ]]; then
+    CONFIG='Release'
+    METHOD='app-store'
+else
+    CONFIG='AdHoc'
+    METHOD='enterprise'
+fi
+
+BUILD_DIR='./build'
+SCHEME="$APP"
+IPA_NAME="$SCHEME.ipa"
+IPA_PATH="$BUILD_DIR/$IPA_NAME"
+
+rm -rf "$BUILD_DIR"
+
+# Export IPA
+gym --workspace "./$APP.xcworkspace" \
+    --scheme "$SCHEME" \
+    --configuration "$CONFIG" \
+    --include_bitcode true \
+    --include_symbols true \
+    --export_method "$METHOD"
+    --output_directory "$BUILD_DIR" \
+    --output_name "$IPA_NAME" \
+    --buildlog_path "$BUILD_DIR/gym.log" \
+    --clean true \
+    --silent false \
+    && echo "$IPA_PATH"
