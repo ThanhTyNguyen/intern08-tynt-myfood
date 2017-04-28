@@ -11,7 +11,11 @@ import UIKit
 class WalkThroughPageViewController: UIPageViewController {
   fileprivate var pageHeadings: [String] = ["Đơn giản hơn", "Vị trí", "Bạn bè"]
   fileprivate var pageImages: [String] = ["LauchScreen1", "LauchScreen1", "LauchScreen1"]
-  fileprivate var pageContents: [String] = ["Lưu trữ và quản lý \n các địa điểm ăn uống yêu thích của bạn", "Tìm kiếm và định vị quán ăn \n chưa bao giờ dễ dàng hơn", "Kết nối bạn bè để chia sẻ \n và cập nhật các địa điểm phù hợp"]
+  fileprivate var pageContents: [String] = [
+                      "Lưu trữ và quản lý \n các địa điểm ăn uống yêu thích của bạn",
+                      "Tìm kiếm và định vị quán ăn \n chưa bao giờ dễ dàng hơn",
+                      "Kết nối bạn bè để chia sẻ \n và cập nhật các địa điểm phù hợp"
+                  ]
   override func viewDidLoad() {
     super.viewDidLoad()
     dataSource = self
