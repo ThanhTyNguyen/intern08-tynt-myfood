@@ -33,5 +33,3 @@ class WalkthroughContentViewController: UIViewController {
     startBtn.layer.borderColor = UIColor.init(red: 235/255, green: 234/255, blue: 230/255, alpha: 1).cgColor
   }
 }
-
-
