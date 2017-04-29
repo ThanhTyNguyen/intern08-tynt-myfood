@@ -18,9 +18,12 @@ class LoginViewController: UIViewController {
     setupView()
   }
   
+  override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(animated)
+    self.navigationController?.setNavigationBarHidden(true, animated: animated)
+  }
+  
   func setupView() {
-    navigationController?.navigationBar.isTranslucent = false
-    navigationItem.title = "Login"
     facebookView.layer.cornerRadius = 4
     googleView.layer.cornerRadius = 4
     loginFacebook.layer.cornerRadius = 4
@@ -28,10 +31,36 @@ class LoginViewController: UIViewController {
   }
   
   @IBAction func signIn(_ sender: UIButton) {
-    navigationController?.pushViewController(SignInViewController(), animated: true)
+    if let signInVC = NewSignInViewController(nibName: "NewSignInViewController", bundle: nil) as? NewSignInViewController {
+      self.addChildViewController(signInVC)
+      signInVC.view.frame = CGRect(x: 0.0, y: 20.0, width: view.frame.size.width, height: view.frame.size.height)
+      signInVC.view.layer.cornerRadius = 5
+      self.view.addSubview(signInVC.view)
+      let transition = CATransition()
+      transition.duration = 0.5
+      transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+      transition.type = kCATransitionPush
+      transition.subtype = kCATransitionFromTop
+      navigationController?.view.layer.add(transition, forKey: kCATransition)
+      signInVC.didMove(toParentViewController: self)
+      self.view.backgroundColor = UIColor.init(red: 250/255, green: 87/255, blue: 78/255, alpha: 0.3)
+    }
   }
   
   @IBAction func signUp(_ sender: UIButton) {
-    navigationController?.pushViewController(SignUpViewController(), animated: true)
+    if let signUpVC = NewSignUpViewController(nibName: "NewSignUpViewController", bundle: nil) as? NewSignUpViewController {
+      self.addChildViewController(signUpVC)
+      signUpVC.view.frame = CGRect(x: 0.0, y: 20.0, width: view.frame.size.width, height: view.frame.size.height)
+      signUpVC.view.layer.cornerRadius = 5
+      self.view.addSubview(signUpVC.view)
+      let transition = CATransition()
+      transition.duration = 0.5
+      transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+      transition.type = kCATransitionPush
+      transition.subtype = kCATransitionFromTop
+      navigationController?.view.layer.add(transition, forKey: kCATransition)
+      signUpVC.didMove(toParentViewController: self)
+      self.view.backgroundColor = UIColor.init(red: 250/255, green: 87/255, blue: 78/255, alpha: 0.3)
+    }
   }
 }

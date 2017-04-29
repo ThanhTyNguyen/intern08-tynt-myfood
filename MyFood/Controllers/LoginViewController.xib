@@ -36,15 +36,22 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4LT-X4-gjT">
                     <rect key="frame" x="48" y="377.5" width="224" height="40"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZYp-80-BHe">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZYp-80-BHe">
                             <rect key="frame" x="43" y="0.0" width="181" height="40"/>
                             <color key="backgroundColor" red="0.22352941176470587" green="0.3529411764705882" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
-                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
-                            <state key="normal" title="Đăng nhập với Facebook">
-                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="Đăng nhập với Facebook">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" metaFont="system" size="15"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                             </state>
                         </button>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facebook-icon_1" translatesAutoresizingMaskIntoConstraints="NO" id="ble-Lr-0ys">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facebookIcon" translatesAutoresizingMaskIntoConstraints="NO" id="ble-Lr-0ys">
                             <rect key="frame" x="8" y="8" width="27" height="24"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="24" id="78f-Bb-vUR"/>
@@ -81,12 +88,19 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fCu-gS-JX0">
                     <rect key="frame" x="48" y="437.5" width="224" height="40"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04Y-e1-Kr5">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="04Y-e1-Kr5">
                             <rect key="frame" x="43" y="0.0" width="181" height="40"/>
                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
-                            <state key="normal" title="Đăng nhập với Google">
-                                <color key="titleColor" red="0.98039215690000003" green="0.3411764706" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="Đăng nhập với Google">
+                                        <attributes>
+                                            <color key="NSColor" red="0.98039215690000003" green="0.3411764706" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="15"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                             </state>
                         </button>
                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="googlepPlus" translatesAutoresizingMaskIntoConstraints="NO" id="prM-Rw-Ebz">
@@ -150,7 +164,7 @@
         </view>
     </objects>
     <resources>
-        <image name="facebook-icon_1" width="135" height="266"/>
+        <image name="facebookIcon" width="135" height="266"/>
         <image name="googlepPlus" width="800" height="765"/>
     </resources>
 </document>

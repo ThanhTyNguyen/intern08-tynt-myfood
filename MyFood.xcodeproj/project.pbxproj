@@ -23,15 +23,15 @@
 		7F9127C6429C6EA81C35C6C2 /* Pods_MyFood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17C422DA9E82FA4355F5571 /* Pods_MyFood.framework */; };
 		8216AF301EB2D4C100E62F9E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8216AF2E1EB2D4C100E62F9E /* LoginViewController.swift */; };
 		8216AF311EB2D4C100E62F9E /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8216AF2F1EB2D4C100E62F9E /* LoginViewController.xib */; };
-		8216AF341EB2F32300E62F9E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8216AF321EB2F32300E62F9E /* SignInViewController.swift */; };
-		8216AF351EB2F32300E62F9E /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8216AF331EB2F32300E62F9E /* SignInViewController.xib */; };
-		8216AF381EB2F37900E62F9E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8216AF361EB2F37900E62F9E /* SignUpViewController.swift */; };
-		8216AF391EB2F37900E62F9E /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8216AF371EB2F37900E62F9E /* SignUpViewController.xib */; };
 		8216AF3B1EB2FB8500E62F9E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8216AF3A1EB2FB8500E62F9E /* Extension.swift */; };
 		8216AF3E1EB320AD00E62F9E /* WalkThroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8216AF3C1EB320AD00E62F9E /* WalkThroughViewController.swift */; };
 		8216AF3F1EB320AD00E62F9E /* WalkThroughViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8216AF3D1EB320AD00E62F9E /* WalkThroughViewController.xib */; };
 		8216AF421EB3222A00E62F9E /* WalkThroughCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8216AF401EB3222A00E62F9E /* WalkThroughCell.swift */; };
 		8216AF431EB3222A00E62F9E /* WalkThroughCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8216AF411EB3222A00E62F9E /* WalkThroughCell.xib */; };
+		825F38331EB4464200721365 /* NewSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825F38311EB4464200721365 /* NewSignInViewController.swift */; };
+		825F38341EB4464200721365 /* NewSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 825F38321EB4464200721365 /* NewSignInViewController.xib */; };
+		825F38371EB4901D00721365 /* NewSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825F38351EB4901D00721365 /* NewSignUpViewController.swift */; };
+		825F38381EB4901D00721365 /* NewSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 825F38361EB4901D00721365 /* NewSignUpViewController.xib */; };
 		B2EE36500EFD5C44FD7FD38D /* Pods_MyFoodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2FC9C593B03FE358B36088 /* Pods_MyFoodTests.framework */; };
 		EC18E91A1DC8911800664690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC18E9191DC8911800664690 /* Assets.xcassets */; };
 		EC18E91D1DC8911800664690 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC18E91B1DC8911800664690 /* LaunchScreen.storyboard */; };
@@ -75,15 +75,15 @@
 		6E99D637B1774501A48E6976 /* Pods-MyFoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFoodTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFoodTests/Pods-MyFoodTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8216AF2E1EB2D4C100E62F9E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8216AF2F1EB2D4C100E62F9E /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		8216AF321EB2F32300E62F9E /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
-		8216AF331EB2F32300E62F9E /* SignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
-		8216AF361EB2F37900E62F9E /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		8216AF371EB2F37900E62F9E /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 		8216AF3A1EB2FB8500E62F9E /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		8216AF3C1EB320AD00E62F9E /* WalkThroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkThroughViewController.swift; sourceTree = "<group>"; };
 		8216AF3D1EB320AD00E62F9E /* WalkThroughViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WalkThroughViewController.xib; sourceTree = "<group>"; };
 		8216AF401EB3222A00E62F9E /* WalkThroughCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkThroughCell.swift; sourceTree = "<group>"; };
 		8216AF411EB3222A00E62F9E /* WalkThroughCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WalkThroughCell.xib; sourceTree = "<group>"; };
+		825F38311EB4464200721365 /* NewSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSignInViewController.swift; sourceTree = "<group>"; };
+		825F38321EB4464200721365 /* NewSignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewSignInViewController.xib; sourceTree = "<group>"; };
+		825F38351EB4901D00721365 /* NewSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSignUpViewController.swift; sourceTree = "<group>"; };
+		825F38361EB4901D00721365 /* NewSignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewSignUpViewController.xib; sourceTree = "<group>"; };
 		B64400CFA6905937C8EA4174 /* Pods-MyFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFood.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFood/Pods-MyFood.release.xcconfig"; sourceTree = "<group>"; };
 		B766D4840C7759B85351E5ED /* Pods-MyFoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFoodTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFoodTests/Pods-MyFoodTests.release.xcconfig"; sourceTree = "<group>"; };
 		C17C422DA9E82FA4355F5571 /* Pods_MyFood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -259,10 +259,10 @@
 			children = (
 				8216AF2E1EB2D4C100E62F9E /* LoginViewController.swift */,
 				8216AF2F1EB2D4C100E62F9E /* LoginViewController.xib */,
-				8216AF321EB2F32300E62F9E /* SignInViewController.swift */,
-				8216AF331EB2F32300E62F9E /* SignInViewController.xib */,
-				8216AF361EB2F37900E62F9E /* SignUpViewController.swift */,
-				8216AF371EB2F37900E62F9E /* SignUpViewController.xib */,
+				825F38311EB4464200721365 /* NewSignInViewController.swift */,
+				825F38321EB4464200721365 /* NewSignInViewController.xib */,
+				825F38351EB4901D00721365 /* NewSignUpViewController.swift */,
+				825F38361EB4901D00721365 /* NewSignUpViewController.xib */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -483,11 +483,11 @@
 				8216AF311EB2D4C100E62F9E /* LoginViewController.xib in Resources */,
 				8216AF431EB3222A00E62F9E /* WalkThroughCell.xib in Resources */,
 				EC18E91D1DC8911800664690 /* LaunchScreen.storyboard in Resources */,
-				8216AF391EB2F37900E62F9E /* SignUpViewController.xib in Resources */,
+				825F38341EB4464200721365 /* NewSignInViewController.xib in Resources */,
 				EC18E91A1DC8911800664690 /* Assets.xcassets in Resources */,
 				563102391DD0304E00BFE154 /* HomeViewController.xib in Resources */,
 				8216AF3F1EB320AD00E62F9E /* WalkThroughViewController.xib in Resources */,
-				8216AF351EB2F32300E62F9E /* SignInViewController.xib in Resources */,
+				825F38381EB4901D00721365 /* NewSignUpViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,19 +624,19 @@
 				56DEFCC51DCB30DD000208A6 /* ApiPath.swift in Sources */,
 				8216AF301EB2D4C100E62F9E /* LoginViewController.swift in Sources */,
 				563102381DD0304E00BFE154 /* HomeViewController.swift in Sources */,
-				8216AF381EB2F37900E62F9E /* SignUpViewController.swift in Sources */,
 				16ED670E1EAE0325000FD355 /* Error.swift in Sources */,
 				56DEFCC01DCB30DD000208A6 /* AppDelegate.swift in Sources */,
 				8216AF3B1EB2FB8500E62F9E /* Extension.swift in Sources */,
+				825F38331EB4464200721365 /* NewSignInViewController.swift in Sources */,
 				56DEFCC81DCB30DD000208A6 /* Fonts.swift in Sources */,
 				56DEFCC11DCB30DD000208A6 /* BaseViewController.swift in Sources */,
 				56DEFCCA1DCB30DD000208A6 /* Strings.swift in Sources */,
-				8216AF341EB2F32300E62F9E /* SignInViewController.swift in Sources */,
 				8216AF3E1EB320AD00E62F9E /* WalkThroughViewController.swift in Sources */,
 				8216AF421EB3222A00E62F9E /* WalkThroughCell.swift in Sources */,
 				56DEFCD01DCB30DD000208A6 /* ApiMananger.swift in Sources */,
 				56DEFCD31DCB30DD000208A6 /* ResponseSerializer.swift in Sources */,
 				56DEFCD21DCB30DD000208A6 /* RequestSerializer.swift in Sources */,
+				825F38371EB4901D00721365 /* NewSignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
