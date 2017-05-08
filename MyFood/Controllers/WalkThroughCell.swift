@@ -15,9 +15,7 @@ class WalkThroughCell: UICollectionViewCell {
   func configUI(walkThroughScreen: WalkThroughScreen?) {
     guard let walkThroughScreen = walkThroughScreen else { return }
     self.headingLabel.text = walkThroughScreen.heading
-    if let image = walkThroughScreen.image {
-      self.imageContent.image = UIImage(named: image)
-    }
+    self.imageContent.image = UIImage(named: walkThroughScreen.image)
     self.bottomContentLabel.text = walkThroughScreen.content
   }
 }

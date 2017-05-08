@@ -23,6 +23,7 @@
 		7F9127C6429C6EA81C35C6C2 /* Pods_MyFood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17C422DA9E82FA4355F5571 /* Pods_MyFood.framework */; };
 		8216AF301EB2D4C100E62F9E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8216AF2E1EB2D4C100E62F9E /* LoginViewController.swift */; };
 		8216AF311EB2D4C100E62F9E /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8216AF2F1EB2D4C100E62F9E /* LoginViewController.xib */; };
+		8218D00A1EC065D80047E23D /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8218D0091EC065D80047E23D /* extension.swift */; };
 		823FD6FB1EC01F560067E214 /* WalkThroughCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823FD6F71EC01F560067E214 /* WalkThroughCell.swift */; };
 		823FD6FC1EC01F560067E214 /* WalkThroughCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 823FD6F81EC01F560067E214 /* WalkThroughCell.xib */; };
 		823FD6FD1EC01F560067E214 /* WalkThroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823FD6F91EC01F560067E214 /* WalkThroughViewController.swift */; };
@@ -70,6 +71,7 @@
 		6E99D637B1774501A48E6976 /* Pods-MyFoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFoodTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFoodTests/Pods-MyFoodTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8216AF2E1EB2D4C100E62F9E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8216AF2F1EB2D4C100E62F9E /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		8218D0091EC065D80047E23D /* extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 		823FD6F71EC01F560067E214 /* WalkThroughCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkThroughCell.swift; sourceTree = "<group>"; };
 		823FD6F81EC01F560067E214 /* WalkThroughCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WalkThroughCell.xib; sourceTree = "<group>"; };
 		823FD6F91EC01F560067E214 /* WalkThroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkThroughViewController.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			children = (
 				56DEFC981DCB30DD000208A6 /* AppDelegate.swift */,
 				56DEFC991DCB30DD000208A6 /* BaseViewController.swift */,
+				8218D0091EC065D80047E23D /* extension.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -609,6 +612,7 @@
 				8216AF301EB2D4C100E62F9E /* LoginViewController.swift in Sources */,
 				823FD6FB1EC01F560067E214 /* WalkThroughCell.swift in Sources */,
 				563102381DD0304E00BFE154 /* HomeViewController.swift in Sources */,
+				8218D00A1EC065D80047E23D /* extension.swift in Sources */,
 				16ED670E1EAE0325000FD355 /* Error.swift in Sources */,
 				56DEFCC01DCB30DD000208A6 /* AppDelegate.swift in Sources */,
 				56DEFCC81DCB30DD000208A6 /* Fonts.swift in Sources */,
