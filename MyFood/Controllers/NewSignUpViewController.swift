@@ -16,7 +16,6 @@ class NewSignUpViewController: UIViewController {
   
   @IBAction func closeBtn(_ sender: UIButton) {
     closeView()
-    self.parent?.view.backgroundColor = UIColor.init(red: 250/255, green: 87/255, blue: 78/255, alpha: 1)
   }
   
   func swipeDownToClose() {
@@ -27,7 +26,6 @@ class NewSignUpViewController: UIViewController {
   
   func swipeDownAction(sender: UISwipeGestureRecognizer) {
     closeView()
-    self.parent?.view.backgroundColor = UIColor.init(red: 250/255, green: 87/255, blue: 78/255, alpha: 1)
   }
   
   func closeView() {
@@ -37,7 +35,12 @@ class NewSignUpViewController: UIViewController {
     transition.type = kCATransitionPush
     transition.subtype = kCATransitionFromBottom
     navigationController?.view.layer.add(transition, forKey:kCATransition)
-    let _ = navigationController?.popViewController(animated: false)
     self.view.removeFromSuperview()
+    self.parent?.view.backgroundColor = UIColor.init(red: 250/255, green: 87/255, blue: 78/255, alpha: 1)
   }
+  
+  @IBAction func doneBtnPressed(_ sender: UIButton) {
+    closeView()
+  }
+  
 }
