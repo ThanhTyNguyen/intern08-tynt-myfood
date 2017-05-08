@@ -40,6 +40,7 @@ class WalkThroughViewController: UIViewController {
   }
   
   func setupView() {
+    navigationController?.isNavigationBarHidden = true
     beginBtn.layer.cornerRadius = 4
     view.backgroundColor = UIColor.init(red: 250/255, green: 87/255, blue: 78/255, alpha: 1)
   }
@@ -58,6 +59,13 @@ class WalkThroughViewController: UIViewController {
     walkThroughCollectionView.dataSource = self
     walkThroughCollectionView.register(UINib(nibName: "WalkThroughCell", bundle: nil), forCellWithReuseIdentifier: "WalkThroughCell")
   }
+  
+  @IBAction func beginBtnPress(_ sender: UIButton) {
+    guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return }
+    let loginViewController = LoginViewController()
+    appDelegate.window?.rootViewController = loginViewController
+  }
+  
 }
 
 extension WalkThroughViewController: UICollectionViewDataSource {
