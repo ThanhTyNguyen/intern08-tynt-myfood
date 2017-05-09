@@ -10,7 +10,6 @@ import SwiftUtils
 
 // MARK: - Base
 final class Color {
-  static let white = UIColor.white
   static let lightBeige = UIColor.RGB(243, 237, 216)
   static let main = UIColor.RGB(250, 87, 78)
 }
