@@ -37,7 +37,7 @@ class WalkThroughViewController: UIViewController {
   func setupView() {
     navigationController?.isNavigationBarHidden = true
     beginButton.layer.cornerRadius = 4
-    view.backgroundColor = Color.mainColor()
+    view.backgroundColor = Color.main
   }
   
   func createData(headings: [String], images: [String], contents: [String]) -> [WalkThroughScreen] {
