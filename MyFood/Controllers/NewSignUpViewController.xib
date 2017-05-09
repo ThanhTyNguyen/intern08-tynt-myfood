@@ -51,7 +51,7 @@
                         <color key="titleColor" red="0.76862745099999996" green="0.32156862749999998" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <connections>
-                        <action selector="closeBtn:" destination="-1" eventType="touchUpInside" id="jpG-vf-IXf"/>
+                        <action selector="closeButton:" destination="-1" eventType="touchUpInside" id="CCC-2T-mRq"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFU-cn-22L">
@@ -65,7 +65,7 @@
                         <color key="titleColor" red="0.76862745099999996" green="0.32156862749999998" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <connections>
-                        <action selector="doneBtnPressed:" destination="-1" eventType="touchUpInside" id="g8q-UP-2sY"/>
+                        <action selector="doneButton:" destination="-1" eventType="touchUpInside" id="rF2-q0-NoJ"/>
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Đăng Ký" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F7h-W8-aPU">

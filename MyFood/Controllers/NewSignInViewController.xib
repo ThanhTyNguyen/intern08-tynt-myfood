@@ -50,7 +50,7 @@
                         <color key="titleColor" red="0.76862745099999996" green="0.32156862749999998" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <connections>
-                        <action selector="closeBtn:" destination="-1" eventType="touchUpInside" id="4or-zl-kKb"/>
+                        <action selector="closeButton:" destination="-1" eventType="touchUpInside" id="Dke-ok-RQc"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBP-To-4HO">
@@ -64,7 +64,7 @@
                         <color key="titleColor" red="0.76862745099999996" green="0.32156862749999998" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <connections>
-                        <action selector="doneBtnPressed:" destination="-1" eventType="touchUpInside" id="5JF-jM-pw7"/>
+                        <action selector="doneButton:" destination="-1" eventType="touchUpInside" id="n4c-fW-UeR"/>
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Đăng Nhập" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QN2-Ck-Bl9">

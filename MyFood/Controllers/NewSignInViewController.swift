@@ -12,7 +12,7 @@ class NewSignInViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    swipeDownToClose()
+    swipeDownToDismiss()
   }
   
   override func viewWillAppear(_ animated: Bool) {
@@ -20,12 +20,11 @@ class NewSignInViewController: UIViewController {
     self.navigationController?.setNavigationBarHidden(true, animated: animated)
   }
   
-  @IBAction func closeBtn(_ sender: UIButton) {
+  @IBAction func closeButton(_ sender: UIButton) {
     closeView()
-    self.parent?.view.backgroundColor = UIColor.init(red: 250/255, green: 87/255, blue: 78/255, alpha: 1)
   }
   
-  func swipeDownToClose() {
+  func swipeDownToDismiss() {
     let swipeDown = UISwipeGestureRecognizer(target: self, action: #selector(swipeDownAction(sender:)))
     swipeDown.direction = UISwipeGestureRecognizerDirection.down
     view.addGestureRecognizer(swipeDown)
@@ -43,10 +42,10 @@ class NewSignInViewController: UIViewController {
     transition.subtype = kCATransitionFromBottom
     navigationController?.view.layer.add(transition, forKey:kCATransition)
     self.view.removeFromSuperview()
-    self.parent?.view.backgroundColor = UIColor.init(red: 250/255, green: 87/255, blue: 78/255, alpha: 1)
+    self.parent?.view.backgroundColor = Color.main
   }
   
-  @IBAction func doneBtnPressed(_ sender: Any) {
+  @IBAction func doneButton(_ sender: Any) {
     closeView()
   }
   
