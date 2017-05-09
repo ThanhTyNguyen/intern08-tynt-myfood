@@ -9,19 +9,14 @@
 import UIKit
 
 struct WalkThroughScreen {
-  var heading: String?
-  var image: String?
-  var content: String?
-  init(heading: String?, image: String?, content: String?) {
-    self.heading = heading ?? ""
-    self.image = image ?? ""
-    self.content = content ?? ""
-  }
+  var heading: String
+  var image: String
+  var content: String
 }
 
 class WalkThroughViewController: UIViewController {
-  @IBOutlet weak internal var walkThroughCollectionView: UICollectionView!
-  @IBOutlet weak private var beginBtn: UIButton!
+  @IBOutlet weak internal var collectionView: UICollectionView!
+  @IBOutlet weak private var beginButton: UIButton!
   @IBOutlet weak fileprivate var pageControl: UIPageControl!
   
   fileprivate var walkThroughScreens: [WalkThroughScreen] = []
@@ -45,8 +40,8 @@ class WalkThroughViewController: UIViewController {
   }
   
   func setupView() {
-    beginBtn.layer.cornerRadius = 4
-    view.backgroundColor = UIColor.init(red: 250/255, green: 87/255, blue: 78/255, alpha: 1)
+    beginButton.layer.cornerRadius = 4
+    view.backgroundColor = Color.main
   }
   
   func createData(headings: [String], images: [String], contents: [String]) -> [WalkThroughScreen] {
@@ -59,12 +54,12 @@ class WalkThroughViewController: UIViewController {
   }
   
   func setupCollectionView() {
-    walkThroughCollectionView.delegate = self
-    walkThroughCollectionView.dataSource = self
-    walkThroughCollectionView.register(UINib(nibName: "WalkThroughCell", bundle: nil), forCellWithReuseIdentifier: "WalkThroughCell")
+    collectionView.delegate = self
+    collectionView.dataSource = self
+    collectionView.register(UINib(nibName: "WalkThroughCell", bundle: nil), forCellWithReuseIdentifier: "WalkThroughCell")
   }
   
-  @IBAction func beginBtnPressed(_ sender: UIButton) {
+  @IBAction func beginButtonPressed(_ sender: UIButton) {
     navigationController?.pushViewController(LoginViewController(), animated: true)
   }
   
@@ -86,7 +81,7 @@ extension WalkThroughViewController: UICollectionViewDataSource {
   }
   
   func changeCurrentPage() {
-    for indexPath in walkThroughCollectionView.indexPathsForVisibleItems {
+    for indexPath in collectionView.indexPathsForVisibleItems {
       pageControl.currentPage = indexPath.item
     }
   }
@@ -98,10 +93,10 @@ extension WalkThroughViewController: UICollectionViewDelegateFlowLayout {
   }
   
   func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-    return CGSize(width: self.view.frame.width, height: self.walkThroughCollectionView.frame.height)
+    return CGSize(width: self.view.frame.width, height: self.collectionView.frame.height)
   }
   
   func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-    return UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+    return .zero
   }
 }

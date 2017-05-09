@@ -10,7 +10,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WalkThroughViewController" customModule="MyFood" customModuleProvider="target">
             <connections>
-                <outlet property="beginBtn" destination="aqF-m5-YIy" id="ya9-UU-apV"/>
+                <outlet property="beginButton" destination="aqF-m5-YIy" id="QXT-Io-YdB"/>
+                <outlet property="collectionView" destination="0H9-oL-Q9K" id="gVO-cq-2BI"/>
                 <outlet property="pageControl" destination="o3c-ID-lYk" id="fXr-11-QWb"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="walkThroughCollectionView" destination="0H9-oL-Q9K" id="wjY-BV-guu"/>
@@ -31,7 +32,7 @@
                         <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                     </collectionViewFlowLayout>
                 </collectionView>
-                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="o3c-ID-lYk">
+                <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="o3c-ID-lYk">
                     <rect key="frame" x="141" y="423" width="39" height="37"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="39" id="COk-pW-JuR"/>
@@ -50,7 +51,7 @@
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
                     <connections>
-                        <action selector="beginBtnPressed:" destination="-1" eventType="touchUpInside" id="66p-zb-QTG"/>
+                        <action selector="beginButtonPressed:" destination="-1" eventType="touchUpInside" id="5pE-Wd-WR4"/>
                     </connections>
                 </button>
             </subviews>
