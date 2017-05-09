@@ -14,7 +14,6 @@
                 <outlet property="collectionView" destination="0H9-oL-Q9K" id="gVO-cq-2BI"/>
                 <outlet property="pageControl" destination="o3c-ID-lYk" id="fXr-11-QWb"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
-                <outlet property="walkThroughCollectionView" destination="0H9-oL-Q9K" id="wjY-BV-guu"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
