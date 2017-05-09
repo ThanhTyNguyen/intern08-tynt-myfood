@@ -13,30 +13,34 @@ typealias HUD = SVProgressHUD
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-    var window: UIWindow?
-
-    func application(_ application: UIApplication,
-                     didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        window = UIWindow(frame: UIScreen.main.bounds)
-      window?.rootViewController = UINavigationController(rootViewController: WalkThroughViewController())
-        window?.makeKeyAndVisible()
-        return true
-    }
-
-    func applicationWillResignActive(_ application: UIApplication) {
-    }
-
-    func applicationDidEnterBackground(_ application: UIApplication) {
-    }
-
-    func applicationWillEnterForeground(_ application: UIApplication) {
-    }
-
-    func applicationDidBecomeActive(_ application: UIApplication) {
-    }
-
-    func applicationWillTerminate(_ application: UIApplication) {
-    }
-    
+  
+  var window: UIWindow?
+  
+  func application(_ application: UIApplication,
+                   didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    window = UIWindow(frame: UIScreen.main.bounds)
+    let navigationController = UINavigationController(rootViewController: TabBarViewController())
+    navigationController.navigationBar.barTintColor = Color.main
+    navigationController.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+    UINavigationBar.appearance().barStyle = .blackOpaque
+    window?.rootViewController = navigationController
+    window?.makeKeyAndVisible()
+    return true
+  }
+  
+  func applicationWillResignActive(_ application: UIApplication) {
+  }
+  
+  func applicationDidEnterBackground(_ application: UIApplication) {
+  }
+  
+  func applicationWillEnterForeground(_ application: UIApplication) {
+  }
+  
+  func applicationDidBecomeActive(_ application: UIApplication) {
+  }
+  
+  func applicationWillTerminate(_ application: UIApplication) {
+  }
+  
 }
