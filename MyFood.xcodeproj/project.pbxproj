@@ -21,11 +21,16 @@
 		56DEFCD21DCB30DD000208A6 /* RequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DEFCB41DCB30DD000208A6 /* RequestSerializer.swift */; };
 		56DEFCD31DCB30DD000208A6 /* ResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DEFCB51DCB30DD000208A6 /* ResponseSerializer.swift */; };
 		7F9127C6429C6EA81C35C6C2 /* Pods_MyFood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17C422DA9E82FA4355F5571 /* Pods_MyFood.framework */; };
-		8216AF311EB2D4C100E62F9E /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8216AF2F1EB2D4C100E62F9E /* LoginViewController.xib */; };
 		823FD6FB1EC01F560067E214 /* WalkThroughCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823FD6F71EC01F560067E214 /* WalkThroughCell.swift */; };
 		823FD6FC1EC01F560067E214 /* WalkThroughCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 823FD6F81EC01F560067E214 /* WalkThroughCell.xib */; };
 		823FD6FD1EC01F560067E214 /* WalkThroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823FD6F91EC01F560067E214 /* WalkThroughViewController.swift */; };
 		823FD6FE1EC01F560067E214 /* WalkThroughViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 823FD6FA1EC01F560067E214 /* WalkThroughViewController.xib */; };
+		8262A0F91EC1DB8000CAC706 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8262A0F31EC1DB8000CAC706 /* LoginViewController.swift */; };
+		8262A0FA1EC1DB8000CAC706 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8262A0F41EC1DB8000CAC706 /* LoginViewController.xib */; };
+		8262A0FB1EC1DB8000CAC706 /* NewSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8262A0F51EC1DB8000CAC706 /* NewSignInViewController.swift */; };
+		8262A0FC1EC1DB8000CAC706 /* NewSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8262A0F61EC1DB8000CAC706 /* NewSignInViewController.xib */; };
+		8262A0FD1EC1DB8000CAC706 /* NewSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8262A0F71EC1DB8000CAC706 /* NewSignUpViewController.swift */; };
+		8262A0FE1EC1DB8000CAC706 /* NewSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8262A0F81EC1DB8000CAC706 /* NewSignUpViewController.xib */; };
 		B2EE36500EFD5C44FD7FD38D /* Pods_MyFoodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2FC9C593B03FE358B36088 /* Pods_MyFoodTests.framework */; };
 		EC18E91A1DC8911800664690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC18E9191DC8911800664690 /* Assets.xcassets */; };
 		EC18E91D1DC8911800664690 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC18E91B1DC8911800664690 /* LaunchScreen.storyboard */; };
@@ -67,11 +72,16 @@
 		56DEFCBA1DCB30DD000208A6 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		6C2FC9C593B03FE358B36088 /* Pods_MyFoodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFoodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E99D637B1774501A48E6976 /* Pods-MyFoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFoodTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFoodTests/Pods-MyFoodTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8216AF2F1EB2D4C100E62F9E /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		823FD6F71EC01F560067E214 /* WalkThroughCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkThroughCell.swift; sourceTree = "<group>"; };
 		823FD6F81EC01F560067E214 /* WalkThroughCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WalkThroughCell.xib; sourceTree = "<group>"; };
 		823FD6F91EC01F560067E214 /* WalkThroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkThroughViewController.swift; sourceTree = "<group>"; };
 		823FD6FA1EC01F560067E214 /* WalkThroughViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WalkThroughViewController.xib; sourceTree = "<group>"; };
+		8262A0F31EC1DB8000CAC706 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8262A0F41EC1DB8000CAC706 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		8262A0F51EC1DB8000CAC706 /* NewSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSignInViewController.swift; sourceTree = "<group>"; };
+		8262A0F61EC1DB8000CAC706 /* NewSignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewSignInViewController.xib; sourceTree = "<group>"; };
+		8262A0F71EC1DB8000CAC706 /* NewSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSignUpViewController.swift; sourceTree = "<group>"; };
+		8262A0F81EC1DB8000CAC706 /* NewSignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewSignUpViewController.xib; sourceTree = "<group>"; };
 		B64400CFA6905937C8EA4174 /* Pods-MyFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFood.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFood/Pods-MyFood.release.xcconfig"; sourceTree = "<group>"; };
 		B766D4840C7759B85351E5ED /* Pods-MyFoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFoodTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFoodTests/Pods-MyFoodTests.release.xcconfig"; sourceTree = "<group>"; };
 		C17C422DA9E82FA4355F5571 /* Pods_MyFood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,7 +159,7 @@
 				82C620E71EB19B67009B1185 /* Favorite */,
 				82C620E61EB19B5D009B1185 /* Notification */,
 				56DEFC9D1DCB30DD000208A6 /* Home */,
-				82C620E51EB19B4E009B1185 /* Login */,
+				8262A0F21EC1DB8000CAC706 /* Login */,
 				82C620E41EB19B40009B1185 /* Launch */,
 			);
 			path = Controllers;
@@ -230,6 +240,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8262A0F21EC1DB8000CAC706 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8262A0F31EC1DB8000CAC706 /* LoginViewController.swift */,
+				8262A0F41EC1DB8000CAC706 /* LoginViewController.xib */,
+				8262A0F51EC1DB8000CAC706 /* NewSignInViewController.swift */,
+				8262A0F61EC1DB8000CAC706 /* NewSignInViewController.xib */,
+				8262A0F71EC1DB8000CAC706 /* NewSignUpViewController.swift */,
+				8262A0F81EC1DB8000CAC706 /* NewSignUpViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		82C620E41EB19B40009B1185 /* Launch */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,14 +262,6 @@
 				823FD6FA1EC01F560067E214 /* WalkThroughViewController.xib */,
 			);
 			name = Launch;
-			sourceTree = "<group>";
-		};
-		82C620E51EB19B4E009B1185 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				8216AF2F1EB2D4C100E62F9E /* LoginViewController.xib */,
-			);
-			name = Login;
 			sourceTree = "<group>";
 		};
 		82C620E61EB19B5D009B1185 /* Notification */ = {
@@ -462,9 +477,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8216AF311EB2D4C100E62F9E /* LoginViewController.xib in Resources */,
 				EC18E91D1DC8911800664690 /* LaunchScreen.storyboard in Resources */,
+				8262A0FC1EC1DB8000CAC706 /* NewSignInViewController.xib in Resources */,
 				EC18E91A1DC8911800664690 /* Assets.xcassets in Resources */,
+				8262A0FE1EC1DB8000CAC706 /* NewSignUpViewController.xib in Resources */,
+				8262A0FA1EC1DB8000CAC706 /* LoginViewController.xib in Resources */,
 				823FD6FE1EC01F560067E214 /* WalkThroughViewController.xib in Resources */,
 				563102391DD0304E00BFE154 /* HomeViewController.xib in Resources */,
 				823FD6FC1EC01F560067E214 /* WalkThroughCell.xib in Resources */,
@@ -602,15 +619,18 @@
 				823FD6FD1EC01F560067E214 /* WalkThroughViewController.swift in Sources */,
 				56DEFCC61DCB30DD000208A6 /* Colors.swift in Sources */,
 				56DEFCC71DCB30DD000208A6 /* Config.swift in Sources */,
+				8262A0F91EC1DB8000CAC706 /* LoginViewController.swift in Sources */,
 				56DEFCC51DCB30DD000208A6 /* ApiPath.swift in Sources */,
 				823FD6FB1EC01F560067E214 /* WalkThroughCell.swift in Sources */,
 				563102381DD0304E00BFE154 /* HomeViewController.swift in Sources */,
 				16ED670E1EAE0325000FD355 /* Error.swift in Sources */,
 				56DEFCC01DCB30DD000208A6 /* AppDelegate.swift in Sources */,
+				8262A0FB1EC1DB8000CAC706 /* NewSignInViewController.swift in Sources */,
 				56DEFCC81DCB30DD000208A6 /* Fonts.swift in Sources */,
 				56DEFCC11DCB30DD000208A6 /* BaseViewController.swift in Sources */,
 				56DEFCCA1DCB30DD000208A6 /* Strings.swift in Sources */,
 				56DEFCD01DCB30DD000208A6 /* ApiMananger.swift in Sources */,
+				8262A0FD1EC1DB8000CAC706 /* NewSignUpViewController.swift in Sources */,
 				56DEFCD31DCB30DD000208A6 /* ResponseSerializer.swift in Sources */,
 				56DEFCD21DCB30DD000208A6 /* RequestSerializer.swift in Sources */,
 			);
