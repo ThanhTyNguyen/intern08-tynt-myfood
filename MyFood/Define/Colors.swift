@@ -12,4 +12,5 @@ import SwiftUtils
 final class Color {
   static let lightBeige = UIColor.RGB(243, 237, 216)
   static let main = UIColor.RGB(250, 87, 78)
+  static let darkColor = UIColor.RGB(250, 87, 78, 0.3)
 }

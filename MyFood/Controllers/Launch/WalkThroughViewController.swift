@@ -58,7 +58,7 @@ class WalkThroughViewController: UIViewController {
   @IBAction func beginButtonPressed(_ sender: UIButton) {
     guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return }
     let loginViewController = LoginViewController()
-    appDelegate.window?.rootViewController = loginViewController
+    appDelegate.window?.rootViewController = UINavigationController(rootViewController: loginViewController)
   }
   
 }
