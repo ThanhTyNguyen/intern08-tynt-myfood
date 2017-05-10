@@ -13,6 +13,8 @@ class LoginViewController: UIViewController {
   @IBOutlet weak private var googleView: UIView!
   @IBOutlet weak private var loginFacebook: UIButton!
   @IBOutlet weak private var loginGoogle: UIButton!
+  @IBOutlet weak private var facebookIcon: UIImageView!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     setupView()
@@ -28,6 +30,8 @@ class LoginViewController: UIViewController {
     googleView.layer.cornerRadius = 4
     loginFacebook.layer.cornerRadius = 4
     loginGoogle.layer.cornerRadius = 4
+    facebookIcon.layer.cornerRadius = 4
+    facebookIcon.layer.masksToBounds = true
   }
   
   @IBAction func signIn(_ sender: UIButton) {
@@ -43,7 +47,7 @@ class LoginViewController: UIViewController {
       transition.subtype = kCATransitionFromTop
       navigationController?.view.layer.add(transition, forKey: kCATransition)
       signInVC.didMove(toParentViewController: self)
-      self.view.backgroundColor = Color.darkColor
+//      self.view.backgroundColor = Color.darkColor
     }
   }
   
