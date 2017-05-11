@@ -15,7 +15,7 @@ class NotificationViewController: BaseViewController {
   }
   
   func setupNavigation() {
-    navigationController?.navigationBar.topItem?.title = "Thông báo"
+    navigationController?.navigationBar.topItem?.title = Strings.notification
     navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
     navigationController?.navigationBar.barTintColor = Color.main
   }

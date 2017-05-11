@@ -15,7 +15,7 @@ class HomeViewController: BaseViewController {
   }
   
   func setupNavigation() {
-    navigationController?.navigationBar.topItem?.title = "Trang chủ"
+    navigationController?.navigationBar.topItem?.title = Strings.home
     navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
     navigationController?.navigationBar.barTintColor = Color.main
   }
