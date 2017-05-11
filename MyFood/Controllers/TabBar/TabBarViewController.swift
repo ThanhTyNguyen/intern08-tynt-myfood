@@ -36,7 +36,7 @@ class TabBarViewController: UITabBarController {
     tabBar.isTranslucent = false
     viewControllers = [homeNavigationController, notificationNavigationController, favoriteNavigationController, profileNavigationController]
     title = "New Feed"
-    tabBar.barTintColor = Color.tabBarColor
+    tabBar.barTintColor = Color.tabBar
     tabBar.tintColor = Color.main
     
     if #available(iOS 10.0, *) {
