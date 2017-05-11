@@ -9,7 +9,14 @@
 import UIKit
 
 class NotificationViewController: BaseViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    setupNavigation()
+  }
+  
+  func setupNavigation() {
+    navigationController?.navigationBar.topItem?.title = "Thông báo"
+    navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+    navigationController?.navigationBar.barTintColor = Color.main
+  }
 }

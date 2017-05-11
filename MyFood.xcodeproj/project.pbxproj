@@ -273,11 +273,11 @@
 		82AADF051EC31CBE0069CE5A /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				82AADF0D1EC31D370069CE5A /* TabBarViewController.swift */,
 				82AADF061EC31CBE0069CE5A /* Favorite */,
 				82AADF0A1EC31CBE0069CE5A /* Home */,
 				82AADF0B1EC31CBE0069CE5A /* Notification */,
 				82AADF0C1EC31CBE0069CE5A /* Profile */,
-				82AADF0D1EC31D370069CE5A /* TabBarViewController.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";

@@ -8,18 +8,6 @@
 
 import UIKit
 
-enum TabbarItem: Int {
-  case newFeed, notification, favorite, profile
-  var title: String? {
-    switch self {
-    case .newFeed: return "Trang chủ"
-    case .favorite: return "Địa điểm yêu thích"
-    case .notification: return "Thông báo"
-    case .profile: return "Thông tin cá nhân"
-    }
-  }
-}
-
 class TabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,14 +41,5 @@ class TabBarViewController: UITabBarController {
       } else {
         // Fallback on earlier versions
       }
-      delegate = self
-  }
-}
-
-extension TabBarViewController: UITabBarControllerDelegate {
-  func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
-    if let item = TabbarItem(rawValue: selectedIndex) {
-      title = item.title
-    }
   }
 }
