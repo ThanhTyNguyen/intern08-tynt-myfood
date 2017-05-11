@@ -38,10 +38,10 @@
 		82AADF1A1EC31D6C0069CE5A /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82AADF181EC31D6C0069CE5A /* NotificationViewController.xib */; };
 		82AADF1D1EC31D900069CE5A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AADF1B1EC31D900069CE5A /* ProfileViewController.swift */; };
 		82AADF1E1EC31D900069CE5A /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82AADF1C1EC31D900069CE5A /* ProfileViewController.xib */; };
-		82AADF211EC31DE60069CE5A /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AADF1F1EC31DE60069CE5A /* CreateViewController.swift */; };
-		82AADF221EC31DE60069CE5A /* CreateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82AADF201EC31DE60069CE5A /* CreateViewController.xib */; };
-		82AADF251EC31DF70069CE5A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AADF231EC31DF70069CE5A /* DetailViewController.swift */; };
-		82AADF261EC31DF70069CE5A /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82AADF241EC31DF70069CE5A /* DetailViewController.xib */; };
+		82AADF211EC31DE60069CE5A /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AADF1F1EC31DE60069CE5A /* NewPlaceViewController.swift */; };
+		82AADF221EC31DE60069CE5A /* NewPlaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82AADF201EC31DE60069CE5A /* NewPlaceViewController.xib */; };
+		82AADF251EC31DF70069CE5A /* DetailPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AADF231EC31DF70069CE5A /* DetailPlaceViewController.swift */; };
+		82AADF261EC31DF70069CE5A /* DetailPlaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82AADF241EC31DF70069CE5A /* DetailPlaceViewController.xib */; };
 		82AADF291EC31E100069CE5A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AADF271EC31E100069CE5A /* MapViewController.swift */; };
 		82AADF2A1EC31E100069CE5A /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82AADF281EC31E100069CE5A /* MapViewController.xib */; };
 		82ABB3741EC2AA810074E1B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB3731EC2AA810074E1B7 /* Assets.xcassets */; };
@@ -102,10 +102,10 @@
 		82AADF181EC31D6C0069CE5A /* NotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
 		82AADF1B1EC31D900069CE5A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		82AADF1C1EC31D900069CE5A /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
-		82AADF1F1EC31DE60069CE5A /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
-		82AADF201EC31DE60069CE5A /* CreateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateViewController.xib; sourceTree = "<group>"; };
-		82AADF231EC31DF70069CE5A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		82AADF241EC31DF70069CE5A /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		82AADF1F1EC31DE60069CE5A /* NewPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
+		82AADF201EC31DE60069CE5A /* NewPlaceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewPlaceViewController.xib; sourceTree = "<group>"; };
+		82AADF231EC31DF70069CE5A /* DetailPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPlaceViewController.swift; sourceTree = "<group>"; };
+		82AADF241EC31DF70069CE5A /* DetailPlaceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailPlaceViewController.xib; sourceTree = "<group>"; };
 		82AADF271EC31E100069CE5A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		82AADF281EC31E100069CE5A /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		82ABB3731EC2AA810074E1B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -285,30 +285,32 @@
 		82AADF061EC31CBE0069CE5A /* Favorite */ = {
 			isa = PBXGroup;
 			children = (
-				82AADF071EC31CBE0069CE5A /* Create */,
-				82AADF081EC31CBE0069CE5A /* Detail */,
+				82AADF071EC31CBE0069CE5A /* NewPlace */,
+				82AADF081EC31CBE0069CE5A /* DetailPlace */,
 				82AADF0F1EC31D540069CE5A /* FavoriteViewController.swift */,
 				82AADF101EC31D540069CE5A /* FavoriteViewController.xib */,
 			);
 			path = Favorite;
 			sourceTree = "<group>";
 		};
-		82AADF071EC31CBE0069CE5A /* Create */ = {
+		82AADF071EC31CBE0069CE5A /* NewPlace */ = {
 			isa = PBXGroup;
 			children = (
-				82AADF1F1EC31DE60069CE5A /* CreateViewController.swift */,
-				82AADF201EC31DE60069CE5A /* CreateViewController.xib */,
+				82AADF1F1EC31DE60069CE5A /* NewPlaceViewController.swift */,
+				82AADF201EC31DE60069CE5A /* NewPlaceViewController.xib */,
 			);
+			name = NewPlace;
 			path = Create;
 			sourceTree = "<group>";
 		};
-		82AADF081EC31CBE0069CE5A /* Detail */ = {
+		82AADF081EC31CBE0069CE5A /* DetailPlace */ = {
 			isa = PBXGroup;
 			children = (
 				82AADF091EC31CBE0069CE5A /* Map */,
-				82AADF231EC31DF70069CE5A /* DetailViewController.swift */,
-				82AADF241EC31DF70069CE5A /* DetailViewController.xib */,
+				82AADF231EC31DF70069CE5A /* DetailPlaceViewController.swift */,
+				82AADF241EC31DF70069CE5A /* DetailPlaceViewController.xib */,
 			);
+			name = DetailPlace;
 			path = Detail;
 			sourceTree = "<group>";
 		};
@@ -525,7 +527,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC18E91D1DC8911800664690 /* LaunchScreen.storyboard in Resources */,
-				82AADF261EC31DF70069CE5A /* DetailViewController.xib in Resources */,
+				82AADF261EC31DF70069CE5A /* DetailPlaceViewController.xib in Resources */,
 				8262A1051EC1DC3A00CAC706 /* WalkThroughCell.xib in Resources */,
 				82AADF121EC31D540069CE5A /* FavoriteViewController.xib in Resources */,
 				8262A0FC1EC1DB8000CAC706 /* NewSignInViewController.xib in Resources */,
@@ -533,7 +535,7 @@
 				82AADF1E1EC31D900069CE5A /* ProfileViewController.xib in Resources */,
 				82AADF1A1EC31D6C0069CE5A /* NotificationViewController.xib in Resources */,
 				8262A1071EC1DC3A00CAC706 /* WalkThroughViewController.xib in Resources */,
-				82AADF221EC31DE60069CE5A /* CreateViewController.xib in Resources */,
+				82AADF221EC31DE60069CE5A /* NewPlaceViewController.xib in Resources */,
 				8262A0FA1EC1DB8000CAC706 /* LoginViewController.xib in Resources */,
 				82AADF2A1EC31E100069CE5A /* MapViewController.xib in Resources */,
 				82ABB3741EC2AA810074E1B7 /* Assets.xcassets in Resources */,
@@ -669,9 +671,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82AADF211EC31DE60069CE5A /* CreateViewController.swift in Sources */,
+				82AADF211EC31DE60069CE5A /* NewPlaceViewController.swift in Sources */,
 				8262A1041EC1DC3A00CAC706 /* WalkThroughCell.swift in Sources */,
-				82AADF251EC31DF70069CE5A /* DetailViewController.swift in Sources */,
+				82AADF251EC31DF70069CE5A /* DetailPlaceViewController.swift in Sources */,
 				56DEFCC61DCB30DD000208A6 /* Colors.swift in Sources */,
 				82AADF151EC31D610069CE5A /* HomeViewController.swift in Sources */,
 				56DEFCC71DCB30DD000208A6 /* Config.swift in Sources */,
