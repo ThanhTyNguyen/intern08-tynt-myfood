@@ -15,7 +15,7 @@ class ProfileViewController: BaseViewController {
   }
   
   func setupNavigation() {
-    navigationController?.navigationBar.topItem?.title = Strings.profile
+    navigationController?.navigationBar.topItem?.title = Strings.profileTitle
     navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
     navigationController?.navigationBar.barTintColor = Color.main
   }

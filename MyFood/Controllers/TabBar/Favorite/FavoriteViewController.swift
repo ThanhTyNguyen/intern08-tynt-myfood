@@ -15,7 +15,7 @@ class FavoriteViewController: BaseViewController {
   }
   
   func setupNavigation() {
-    navigationController?.navigationBar.topItem?.title = Strings.favorite
+    navigationController?.navigationBar.topItem?.title = Strings.favoriteTile
     navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
     navigationController?.navigationBar.barTintColor = Color.main
   }

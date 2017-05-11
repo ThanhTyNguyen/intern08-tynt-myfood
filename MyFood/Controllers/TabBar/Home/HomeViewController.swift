@@ -15,7 +15,7 @@ class HomeViewController: BaseViewController {
   }
   
   func setupNavigation() {
-    navigationController?.navigationBar.topItem?.title = Strings.home
+    navigationController?.navigationBar.topItem?.title = Strings.homeTitle
     navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
     navigationController?.navigationBar.barTintColor = Color.main
   }

@@ -9,9 +9,9 @@
 import Foundation
 
 class Strings {
-  static let appName = "CoffeeFinder"
-  static let home = "Trang chủ"
-  static let notification = "Thông báo"
-  static let favorite = "Địa điểm yêu thích"
-  static let profile = "Thông tin cá nhân"
+  static let appName = "My Food"
+  static let homeTitle = "Trang chủ"
+  static let notificationTitle = "Thông báo"
+  static let favoriteTile = "Địa điểm yêu thích"
+  static let profileTitle = "Thông tin cá nhân"
 }
