@@ -64,7 +64,7 @@ class LoginViewController: UIViewController {
       transition.subtype = kCATransitionFromTop
       navigationController?.view.layer.add(transition, forKey: kCATransition)
       signUpVC.didMove(toParentViewController: self)
-      self.view.backgroundColor = Color.darkColor
+      self.view.backgroundColor = Color.dark
     }
   }
 }
